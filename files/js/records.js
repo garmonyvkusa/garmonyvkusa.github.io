@@ -1,5 +1,5 @@
 function onclickrec(id) {
-		location='../recept.php?tid=' + id;
+		location='https://garmonyvkusa.com/recept.php?tid=' + id;
 	}
 	    	checkwindow();
 	window.addEventListener('resize', checkwindow);
@@ -24,24 +24,4 @@ function onclickrec(id) {
 			document.getElementById("mobile").hidden = true;
 		}
 
-}
-function like() {
-	if ($('.avf:checked').val()=='on') {
-		//dislike
-		const element = document.getElementById("jke");
-		element.innerHTML = parseInt($("#jke").text()) - 1;
-		$.post( "/like.php", { id: pageindex, like: "0"}).done(function(data) {
-		    if(data=="signup") {location="https://garmonyvkusa.com/signup.php";}
-		    else if(data=="login") {location="https://garmonyvkusa.com/login.php";}
-		});
-	}
-	else {
-		//like
-		const element = document.getElementById("jke");
-		element.innerHTML = parseInt($("#jke").text()) + 1;
-		$.post( "/like.php", { id: pageindex, like: "1"}).done(function(data) {
-		    if(data=="signup") {location="https://garmonyvkusa.com/signup.php";}
-		    else if(data=="login") {location="https://garmonyvkusa.com/login.php";}
-		});
-	}
 }
