@@ -504,7 +504,7 @@ bold {
     margin-top: 15px;
     margin-bottom: 5px;
     width: 90%;}
-h4 {
+.receptsteps > h4 {
 	    display: block;
     margin-left: 5%;
     font-family: 'Noto Sans';
