@@ -1,5 +1,5 @@
 function onclickrec(id) {
-		location='https://garmonyvkusa.com/recept.php?tid=' + id;
+		location='https://garmonyvkusa.com/recept.html?tid=' + id;
 	}
 	    	checkwindow();
 	window.addEventListener('resize', checkwindow);
