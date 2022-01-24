@@ -3,4 +3,4 @@
 Site with cooking recipes.
 ## Contact
 Email:
-[admin@garmonyvkusa.com](mailto:admin@garmonyvkusa.com)
+[garmonyvkusa@gmail.com](mailto:garmonyvkusa@gmail.com)
